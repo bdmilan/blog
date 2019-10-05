@@ -1,17 +1,23 @@
-<!-- Html Elements for Search -->
-<div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
-<ul id="results-container"></ul>
+---
+layout: default
+permalink: /search/
+---
+<div class="page-content">
+
+        <div id="search-page">
+                <gcse:search>Loading. . Please wait <i class="fa fa-circle-o-notch fa-spin fa fa-fw margin-bottom"></i></gcse:search>
+        <script>
+          (function() {
+            var cx = '017575011755499056211:vwrwldvgq6s';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                '//cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        </script>
+
+        </div>
 </div>
-
-<!-- Script pointing to search-script.js -->
-<script src="/js/search-script.js" type="text/javascript"></script>
-
-<!-- Configuration -->
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
-})
-</script>
