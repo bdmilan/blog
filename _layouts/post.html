@@ -2,13 +2,16 @@
 layout: default
 ---
 <div style="background:#eee; border: 1px solid #ddd; padding: 10px; margin: 10px;border-radius: 15px;">
+
 <article id="post-page">
+	<div style="background:#ddd;">
 	<h2>{{ page.title }}</h2>		
 	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
+		</div><div style="background:#fff;">
 	<div class="content">
 
 		{{ content }}
 		
-	</div>
+	</div></div>
 </article>
 </div>
