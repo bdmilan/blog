@@ -3,9 +3,6 @@
 /* Required for footer to stick to the bottom */
 html, body {
 	height: 100%;
-	width: 700px;
-	margin-left: 25%;
-	margin-right: 25%;
 }
 
 /* Navigation */
@@ -121,8 +118,8 @@ html, body {
 
 #container {
 	margin:0 auto;
-	max-width: auto;
-	padding: 0 0.8rem;
+	max-width: 720px;
+	padding: 0 1.2rem;
 }
 
 #header {
