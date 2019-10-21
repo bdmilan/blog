@@ -1,11 +1,11 @@
 # Site settings
-title: MkWorld | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+title: MkWorld | A MKTWO4U Pvt. Ltd.
+description: "A minimal blog."
+url: "#"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "MILAN"
+  email: "bdmilan12@gmail.com"
+  url: "#"
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
