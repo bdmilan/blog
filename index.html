@@ -23,3 +23,12 @@ layout: default
   <input type="text" id="search-box" name="query">
   <input type="submit" value="search">
 </form>
+
+
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json'
+})
+</script>
