@@ -1,5 +1,5 @@
 ---
-title: ভিপিএন কী? এটা কী কাজে লাগে
+title: IP Subnetting Bangla Tutorial (বাংলা ভাষায় IP Subnetting)
 ---
 Advanced Networking যারা শিখছে তাদের জন্য অত্যন্ত গুরুত্বপূর্ণ একটা বিষয় হচ্ছে Subnetting। দক্ষ Network Engineer হতে হলে চোখের নিমিষেই Subnet Mask / Network IP/ Block Size / Total Usable IP / 1st Usable IP / Last Usable IP/ Broadcast IP এই গুলা বার করা জানতে হবে। প্রিয় শিক্ষার্থীদের জন্য Subnetting নিয়ে আমার এই সামান্য উপহার। এখানে আমি Class-C এর Subnetting নিয়ে আলোচনা করেছি।
 
