@@ -1,5 +1,5 @@
 ---
-title: অটোমেটিক শেয়ার হবে সকল পোষ্ট – How To Connect Website To Telegram 🔥 || Bangla Bot Tutorial
+title: অটোমেটিক শেয়ার হবে সকল পোষ্ট – How To Connect Website To Telegram 
 ---
 <div class="post_paragraph">
 <div align="center">
