@@ -1,0 +1,38 @@
+[
+  
+    {
+      "title"    : "Jekyll Data to the Rescue",
+      "tags"     : "Jekyll",
+      "url"      : "/jekyll-data-tutorial/",
+      "date"     : "2019-10-19 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "CSS Grid Layout - Try It Now!",
+      "tags"     : "Web-Design",
+      "url"      : "/css-grid/",
+      "date"     : "2018-01-25 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Image Optimization",
+      "tags"     : "Web-Design",
+      "url"      : "/image-optimization/",
+      "date"     : "2017-12-20 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Why I Switched To Google Domains?",
+      "tags"     : "Opinion",
+      "url"      : "/google-domains-review/",
+      "date"     : "2017-11-16 00:00:00 +0000"
+    } ,
+  
+    {
+      "title"    : "4 Steps To Migrate From WordPress To Jekyll",
+      "tags"     : "Web-Design, Jekyll",
+      "url"      : "/wordpress-to-jekyll-migration/",
+      "date"     : "2017-10-03 00:00:00 +0000"
+    } 
+  
+]
