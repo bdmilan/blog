@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-{% include head.html %}
-
-<body>
-	<div id="wrap">
-	  	
-	  	
-
-      <!-- Header -->
-      {% if site.custom_header == true %}
-        {% include header-custom.html %}
-      {% else %}
-        {% include header.html %}
-      {% endif %}
-
+---
+layout: page
+title: Server 
+---
 
 
 <div class="zoom rb content" style="margin-top: 20px;"><a href="http://103.112.63.21" style="color: #;">http://103.112.63.21 </a></div>
@@ -68,13 +55,3 @@
 <div class="zoom rb content" style="margin-top: 20px; margin-bottom: 20px;"><a href="http://extramovies.host" style="color: #;"> http://extramovies.host </a></div>
 
 
-
-<!-- Footer -->
-	    {% include footer.html %}
-
-	    <!-- Script -->
-      {% include script.html %}
-
-	</div>
-</body>
-</html>
