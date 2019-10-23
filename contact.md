@@ -1,3 +1,8 @@
+---
+layout: page
+title: Contacts 
+---
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <form action="#" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
