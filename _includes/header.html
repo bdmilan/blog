@@ -27,11 +27,24 @@
     <td style="background:#010b1354; border-radius: 45px; width: 10%; border: 1px solid #000; font-weight: bold;color: #fff; text-align: center; padding: 10px;"><a href="ftp.html" style="color: #fff;"> FTP </a></td>
 	<td style="background:#010b1354; border-radius: 45px; width: 10%; border: 1px solid #000; font-weight: bold;color: #fff; text-align: center; padding: 10px;"><a href="movie.html" style="color: #fff;"> MOVIE </a></td>
 	  <td style="background:#010b1354; border-radius: 45px; width: 10%; border: 1px solid #000; font-weight: bold;color: #fff; text-align: center; padding: 10px;"><a href="forum.html" style="color: #fff;"> FORUM </a></td>
-         <td style="background:#010b1354; border-radius: 45px; width: 20%; border: 1px solid #000; font-weight: bold;color: #fff; text-align: center; padding: 10px;"><form action="/search.html" method="get">
-  <label for="search-box"></label>
-  <input type="text" id="search-box" name="query" value="b">
-  <input type="submit" value="search">
-</form></td> 
+         <td style="background:#010b1354; border-radius: 45px; width: 20%; border: 1px solid #000; font-weight: bold;color: #fff; text-align: center; padding: 10px;">
+	  
+	  <div>
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Let's searching...">
+<ul id="results-container"></ul>
+</div>
+<script src="/demo/search-script.min.js" type="text/javascript"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/demo/search.json',
+})
+</script>
+</div>
+	  
+	  </td> 
 	  
   </tr>
 </table></b>
@@ -46,17 +59,4 @@
 <script src="https://mobifreak.in/assets/js-extended/gradient.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-<div>
-<div id="search-container">
-<input type="text" id="search-input" placeholder="How, Jekyll, Liquid...">
-<ul id="results-container"></ul>
-</div>
-<script src="/demo/search-script.min.js" type="text/javascript"></script>
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/demo/search.json',
-})
-</script>
-</div>
+
