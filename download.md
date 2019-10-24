@@ -20,4 +20,4 @@ color: #fff;}
 
 </style>
 
-<div class="dot"> <a href="https://1drv.ms/u/s!ArvkL8CzRv5ThSkyakThm-4BDpQa?e=1GPDF0"><div><img src="https://i.extraimage.info/pix/FWImW.gif" alt="">&nbsp;&nbsp;<b>TV_Tools</b></div></a> </div></div>
+<a href="https://1drv.ms/u/s!ArvkL8CzRv5ThSkyakThm-4BDpQa?e=1GPDF0"><div class="dot"> <b>TV_Tools</b></div></a>
