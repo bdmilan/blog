@@ -46,3 +46,6 @@ title: Contacts
 <button class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding">Send</button>
 
 </form>
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9p6mxa1Z2cQhcyRbjLRBRsCfhF2cQ_c_1uz9-LjMqBq3TKw/viewform?embedded=true" width="640" height="591" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
