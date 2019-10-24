@@ -48,4 +48,17 @@ title: Contacts
 </form>
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9p6mxa1Z2cQhcyRbjLRBRsCfhF2cQ_c_1uz9-LjMqBq3TKw/viewform?embedded=true" width="640" height="591" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSe9p6mxa1Z2cQhcyRbjLRBRsCfhF2cQ_c_1uz9-LjMqBq3TKw/formResponse">
+
+          <label>Name</label>
+          <input name="entry.1894770040" type="text" />
+
+          <label>Email</label>
+          <input name="entry.1992781800" type="email" required />
+		  
+		  <label>Message</label>
+          <input name="entry.85409556" type="message" required />
+
+          <input type="submit" value="Send" />
+
+    </form>
