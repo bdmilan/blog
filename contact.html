@@ -4,7 +4,13 @@ title: Contacts
 ---
 
 <script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {alert(Success);}"></iframe>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.myFunction();}"></iframe>
+
+<script>
+function myFunction() {
+  alert("Thank You For Contact Us.");
+}
+</script>
 
 
 <style> .radius{
