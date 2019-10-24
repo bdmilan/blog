@@ -4,15 +4,13 @@ title: Contacts
 ---
 
 <script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.myFunction();}"></iframe>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://mkhnp.ml/contact.html';}"></iframe>
 
 <script>
 function myFunction() {
   alert("Thank You For Contact Us.");
 }
 </script>
-
-
 <style> .radius{
 margin-left: 40%;
 } 
@@ -54,6 +52,6 @@ margin-left: 40%;
     
 </div>
 </div>
-<input class="radius w3-button w3-block w3-section w3-blue w3-ripple w3-padding" style="border-radius: 25px; width: 30%;" type="submit" value="Send" /> 
+<button class="radius w3-button w3-block w3-section w3-blue w3-ripple w3-padding" style="border-radius: 25px; width: 30%;" type="submit" value="Send" onclick="myFunction()">Send</button> 
 
 </form>
