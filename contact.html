@@ -55,3 +55,29 @@ margin-left: 40%;
 <button class="radius w3-button w3-block w3-section w3-blue w3-ripple w3-padding" style="border-radius: 25px; width: 30%;" type="submit" value="Send" onclick="myFunction()">Send</button> 
 
 </form>
+
+
+
+
+
+
+<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
+        <script src="d3.min.js?v=3.2.8"></script>
+
+        <script type="text/javascript"charset="utf-8">
+            d3.text("https://docs.google.com/spreadsheets/d/1ofPAOgQIp7oGORESYlYPGVnYPzaPEJH8zWpCzYF1jWk/export?format=csv"/>", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("body")
+                    .append("table")
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .text(function(d) { return d; });
+            });
+        </script>
