@@ -61,23 +61,12 @@ margin-left: 40%;
 
 
 
-<!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
-        <script src="d3.min.js?v=3.2.8"></script>
+<script>
+    function importGSS(t) {
+        $.each(t.feed.entry.slice(-20), function() {
+            $("table").addClass("flex-container").append("<tr><td>" + this.gsx$name.$t + "</td><td>" + this.gsx$email.$t + "</td></tr>")
+        }), $("table").addClass("flex-container").append("<tr><th>Name</th><th>Email</th></tr>")
+    }
+</script>
 
-        <script type="text/javascript"charset="utf-8">
-            d3.text("https://docs.google.com/spreadsheets/d/1ofPAOgQIp7oGORESYlYPGVnYPzaPEJH8zWpCzYF1jWk/export?format=csv"/>", function(data) {
-                var parsedCSV = d3.csv.parseRows(data);
-
-                var container = d3.select("body")
-                    .append("table")
-
-                    .selectAll("tr")
-                        .data(parsedCSV).enter()
-                        .append("tr")
-
-                    .selectAll("td")
-                        .data(function(d) { return d; }).enter()
-                        .append("td")
-                        .text(function(d) { return d; });
-            });
-        </script>
+<script src="https://spreadsheets.google.com/feeds/list/1ofPAOgQIp7oGORESYlYPGVnYPzaPEJH8zWpCzYF1jWk/1/public/values?alt=json-in-script&amp;callback=importGSS" async=""></script>
