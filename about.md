@@ -5,7 +5,6 @@ title: About
 
 <style>
 table, th, td {
-  background-color: red;
   border: 2px solid #444;
   border-collapse: collapse;
 }
