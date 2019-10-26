@@ -3,25 +3,30 @@ layout: page
 title: About 
 ---
 
-<style> .tdb {
-border: 1px dotted #444;
+<br>
+  <style> .tdb {
+border: 1px dotted #333;
+     background-color: #444;
+    padding-left: 10px;
 }
 </style>
-<table style="width:100%; border: 2px solid #444;">
+
+<table style="width:100%; border-radius: 15px; background-color: #444; border: 1px solid #222;">
+  <tbody><tr>
+    <th style="background-color: gray;border-radius: 10px;">Our Domain</th>
+    <th style="background-color: gray;border-radius: 10px;">Expiry date</th>
+  </tr>
   <tr>
-    <th style="background-color: gray;">Our Domain</th>
-    <th style="background-color: gray;">Expiry date</th>
+    <td class="tdb">mktwo4u.tk</td>
+    <td class="tdb">2020-10-11</td>
   </tr>
   <tr class="tdb">
-    <td>mktwo4u.tk</td>
-    <td>2020-10-11</td>
-  </tr>
-  <tr class="tdb">
-    <td>mkhnp.ml </td>
-    <td>2020-10-11</td>
+    <td class="tdb">mkhnp.ml </td>
+    <td class="tdb">2020-10-11</td>
   </tr>
    <tr>
-    <td>skcable.tk</td>
-    <td>2019-11-28</td>
+    <td class="tdb">skcable.tk</td>
+    <td class="tdb">2019-11-28</td>
   </tr>
-</table>
+</tbody></table>
+
