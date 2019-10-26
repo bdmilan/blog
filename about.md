@@ -11,7 +11,7 @@ border: 1px dotted #333;
 }
 </style>
 
-<table style="width:100%; border-radius: 15px; background-color: #444; border: 1px solid #222;">
+<table style="width:100%; background-color: #444; border: 1px solid #222;">
   <tbody><tr>
     <th style="background: linear-gradient(to bottom, #660033 0%, #993300 100%);
 } border-radius: 15px;">Our Domain</th>
