@@ -48,11 +48,11 @@
         }
 
         table {
-            transform: rotate(180deg)
+            
         }
 
         table>tr {
-            transform: rotate(-180deg)
+            
         }
     </style>
 <script>
