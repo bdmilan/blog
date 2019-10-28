@@ -33,7 +33,7 @@
 <br>
 <input type="submit" value="Send">
 </form>
-<p>Showing only the last 20 entries. You can check all the entries <a href="https://docs.google.com/spreadsheets/d/1_vt8il8LpxEi8_DmX0yxxRambpw700cdMC2yMIGWqbk/edit?usp=sharing" target="_blank">here</a>.
+<p>Showing only the last 20 entries. You can check all the entries <a href="https://docs.google.com/spreadsheets/d/1FAIpQLSe9p6mxa1Z2cQhcyRbjLRBRsCfhF2cQ_c_1uz9/edit?usp=sharing" target="_blank">here</a>.
 </p><div class="table">
 
 
@@ -48,7 +48,7 @@
         }), $("table").addClass("flex-container").append("<tr><th>Name</th><th>Email</th></tr>")
     }
 </script>
-<script src="https://spreadsheets.google.com/feeds/list/1_vt8il8LpxEi8_DmX0yxxRambpw700cdMC2yMIGWqbk/1/public/values?alt=json-in-script&amp;callback=importGSS" async=""></script>
+<script src="https://spreadsheets.google.com/feeds/list/1FAIpQLSe9p6mxa1Z2cQhcyRbjLRBRsCfhF2cQ_c_1uz9/1/public/values?alt=json-in-script&amp;callback=importGSS" async=""></script>
 
 
 </body></html>
