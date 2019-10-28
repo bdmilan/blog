@@ -74,7 +74,9 @@ title: About
 </form>
 <p>Showing only the last 20 entries. You can check all the entries <a href="https://docs.google.com/spreadsheets/d/1_vt8il8LpxEi8_DmX0yxxRambpw700cdMC2yMIGWqbk/edit?usp=sharing" target="_blank">here</a>.
 </p><div class="table">
-<table class="flex-container"><tr><td>Trango Lango</td><td>trango@lango.com</td></tr><tr><td>test</td><td>test@test.testtest</td></tr><tr><td>Max Maier</td><td>max@maier.com</td></tr><tr><td>utzutzu</td><td>tzutzutzu@werw.com</td></tr><tr><td>Hello</td><td>hello@hello.com</td></tr><tr><td>1213213</td><td>2132132132@gmail.c</td></tr><tr><td>abkit</td><td>g@gmail.com</td></tr><tr><td>mk</td><td>jo@gg</td></tr><tr><td>Text</td><td>sefsdf@qqq.com</td></tr><tr><td>akhilesh</td><td>aaaa@wwww.com</td></tr><tr><td>test</td><td>sdg@gmail.com</td></tr><tr><td>test1</td><td>sdg@gmail.com</td></tr><tr><td>sadf</td><td>sdf@gmail.com</td></tr><tr><td>ggggg</td><td>gggggggggg@f</td></tr><tr><td>test</td><td>testing@gmail.com</td></tr><tr><td>adfadfasdf</td><td>adfa@a.com</td></tr><tr><td>John Stag</td><td>john@stag.com</td></tr><tr><td>sdsds</td><td>dsdsd@ds.co</td></tr><tr><td>test</td><td>test@gest.com</td></tr><tr><td>УФФФ</td><td>qqq@qq.qq</td></tr><tr><th>Name</th><th>Email</th></tr></table>
+
+
+
 </div>
 </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
