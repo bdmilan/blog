@@ -76,7 +76,7 @@
 <script>
     function importGSS(t) {
         $.each(t.feed.entry.slice(-20), function() {
-            $("table").addClass("flex-container").append("<tr><td>" + this.gsx$name.$t + "</td><td>" + this.gsx$email.$t + "</td></tr>")
+            $("table").addClass("flex-container").append("<tr><td>" + this.gsx$name.$t + "</td><td>" + this.gsx$email.$t + "</td><td>" + this.gsx$message.$t + "</td></tr>")
         }), $("table").addClass("flex-container").append("<tr><th>Name</th><th>Email</th></tr>")
     }
 </script>
