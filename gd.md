@@ -33,7 +33,7 @@
 <br>
 <input type="submit" value="Send">
 </form>
-<p>Showing only the last 20 entries. You can check all the entries <a href="https://docs.google.com/spreadsheets/d/1FAIpQLSe9p6mxa1Z2cQhcyRbjLRBRsCfhF2cQ_c_1uz9/edit?usp=sharing" target="_blank">here</a>.
+<p>Showing only the last 20 entries. You can check all the entries <a href="https://docs.google.com/spreadsheets/d/1ofPAOgQIp7oGORESYlYPGVnYPzaPEJH8zWpCzYF1jWk/edit?usp=sharing" target="_blank">here</a>.
 </p><div class="table">
 
 
