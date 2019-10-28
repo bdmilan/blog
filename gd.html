@@ -1,0 +1,11 @@
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    function importGSS(t) {
+        $.each(t.feed.entry.slice(-20), function() {
+            $("table").addClass("flex-container").append("<tr><td>" + this.gsx$name.$t + "</td><td>" + this.gsx$email.$t + "</td></tr>")
+        }), $("table").addClass("flex-container").append("<tr><th>Name</th><th>Email</th></tr>")
+    }
+</script>
+<script src="https://spreadsheets.google.com/feeds/list/1ofPAOgQIp7oGORESYlYPGVnYPzaPEJH8zWpCzYF1jWk/1/public/values?alt=json-in-script&amp;callback=importGSS" async=""></script>
+
