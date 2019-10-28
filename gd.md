@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <title></title>
 <meta name="description" content="">
-<link rel="stylesheet" href="webjeda.com/demo/demo.css">
+<link rel="stylesheet" href="/demo/demo.css">
 <style>
 	  .demo-wrapper {
 		  max-width: 80%;
@@ -15,46 +15,11 @@
 <body>
 <div class="demo-container">
 <a class="btn" href="/google-form-customize/">Back to article</a>
-<style>
-        input {
-            padding: 5px 10px;
-            margin-bottom: 10px
-        }
-        .table {
-          max-width: 100%;
-          overflow: hidden;
-        }
 
-        table {
-            text-align: left
-        }
 
-        td,
-        th {
-            padding: 10px
-        }
 
-        td:first-child,
-        th:first-child {
-            background-color: #3cb371;
-            color: #fff;
-            max-width: 170px;
-        }
 
-        td:last-child,
-        th:last-child {
-            background-color: #444;
-            color: #fff
-        }
 
-        table {
-            
-        }
-
-        table>tr {
-            
-        }
-    </style>
 <script>
     var submitted = !1
 </script>
