@@ -1,22 +1,3 @@
-@@ -1,54 +0,0 @@
-
-<html lang="en"><head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title></title>
-<meta name="description" content="">
-<link rel="stylesheet" href="/demo/demo.css">
-<style>
-	  .demo-wrapper {
-		  max-width: 80%;
-		  margin: 5% auto;
-	  }
-  </style>
-</head>
-<body>
-<div class="demo-container">
-<a class="btn" href="/google-form-customize/">Back to article</a>
-
 
 <table></table>
 
@@ -42,9 +23,17 @@
 <script>
     function importGSS(t) {
         $.each(t.feed.entry.slice(-20), function() {
-            $("table").addClass("flex-container").append("<tr><td>" + this.gsx$name.$t + "</td><td>" + this.gsx$email.$t + "</td></tr>")
-        }), $("table").addClass("flex-container").append("<tr><th>Name</th><th>Email</th></tr>")
+            $("").addClass("flex-container").append("<tr><td>" + this.gsx$name.$t + "</td><td>" + this.gsx$email.$t + "</td></tr>")
+        }), $("").addClass("flex-container").append("<tr><th>Name</th><th>Email</th></tr>")
     }
 </script>
 <script src="https://spreadsheets.google.com/feeds/list/1ofPAOgQIp7oGORESYlYPGVnYPzaPEJH8zWpCzYF1jWk/1/public/values?alt=json-in-script&amp;callback=importGSS" async=""></script>
-</body></html>
+
+
+
+mk
+
+ + this.gsx$name.$t + + this.gsx$email.$t + 
+ 
+ 
+ mk
