@@ -4,7 +4,7 @@ title: Server
 ---
 
 
-<div class="zoom rb content" style="margin-top: 20px;"><a href="http://http://bdiptv.stream/live-tv/" style="color: #;">LIVE TV </a></div>
+<div class="zoom rb content" style="margin-top: 20px;"><a href="http://bdiptv.stream/live-tv/" style="color: #;">LIVE TV </a></div>
 <div class="zoom rb content" style="margin-top: 20px;"><a href="http://http://www.bdspeed.com" style="color: #;">BDSPEED </a></div>
 <div class="zoom rb content" style="margin-top: 20px;"><a href="http://103.112.63.21" style="color: #;">http://103.112.63.21 </a></div>
 <div class="zoom rb content" style="margin-top: 20px;"><a href="http://dl.bitnetbd.com" style="color: #;">http://dl.bitnetbd.com </a></div>
