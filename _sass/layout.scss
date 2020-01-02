@@ -282,7 +282,7 @@ footer {
 /* article */
 
 .article {
-	background: linear-gradient(to bottom left, #0b1e02 0%, #cc0000 100%);
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 	border-radius: 15px;
 	padding: 20px;
 	margin-top: 10px;
