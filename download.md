@@ -5,7 +5,7 @@ title: download
 # Download Important Files.
 
 <div><style> .dot{
-background: linear-gradient(to left, #33ccff 0%, #9900cc 100%);
+background: linear-gradient(to left, #646464 0%, #151515 100%);
   border-bottom: 1px solid green;
   border-top: 1px dotted #fff;
   border-left: 5px solid red;
