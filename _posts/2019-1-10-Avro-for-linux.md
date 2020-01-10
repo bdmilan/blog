@@ -6,28 +6,28 @@ After a long time, we have tried to do something for the Avro (Linux). Now the U
 
 Installation
 
-    Please run these commands from the terminal. Never forget to be in relevant directory.
+1. Please run these commands from the terminal. Never forget to be in relevant directory.
 
-    wget "https://github.com/ugcoder/avro/releases/download/v2.0/avro_2.0-1_all.deb"
+   wget "https://github.com/ugcoder/avro/releases/download/v2.0/avro_2.0-1_all.deb"
+   
+   sudo dpkg -i avro_2.0-1_all.deb
+   
+2. If you get any dependency error, then also run the following command:
 
-    sudo dpkg -i avro_2.0-1_all.deb
+   sudo apt-get install -fy
 
-    If you get any dependency error, then also run the following command:
+3. I hope, all is well now and the installation has been finished.
 
-    sudo apt-get install -fy
+4. Go to System Settings -> Language Support from Unity Launcher
 
-    I hope, all is well now and the installation has been finished.
+5. Look at the Keyboard input method system
 
-    Go to System Settings -> Language Support from Unity Launcher
+6. Select IBus and close the window.
 
-    Look at the Keyboard input method system
+7. I believe that you need to restart IBus to make everything work fine. Try the following command:
 
-    Select IBus and close the window.
+   ibus restart
 
-    I believe that you need to restart IBus to make everything work fine. Try the following command:
+8. Now go to System Settings -> Keyboard -> Text Entry.
 
-    ibus restart
-
-    Now go to System Settings -> Keyboard -> Text Entry.
-
-    Search and add Avro Phonetic as input source. That's all.
+9. Search and add Avro Phonetic as input source. That's all.
