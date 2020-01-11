@@ -3,7 +3,8 @@
 /* Required for footer to stick to the bottom */
 html, body {
 	height: 100%;
-	min-width: auto;
+	max-width: 750;
+	margin:0 auto;
 	
 	
 }
