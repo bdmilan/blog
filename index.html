@@ -12,9 +12,9 @@ layout: default
 	  <div class="article">
 	<li class="post"><div style="border-bottom: 1px dotted black;">
 	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
-	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time></div>
-		
+	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
 		<h3>{{ category[0] }}</h3>
+		</div>
 		
 		<br> 
 	  	
