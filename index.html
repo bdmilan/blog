@@ -2,9 +2,12 @@
 layout: default
 ---
 <!-- Posts -->
+
+{% for category in site.categories %}
+  <h3>{{ category[0] }}</h3>
 <ul id="posts">
 
-	{% for post in paginator.posts %}
+	{% for post in category[1] %}
 
 	  <div class="article">
 	<li class="post"><div style="border-bottom: 1px dotted black;">
@@ -17,3 +20,4 @@ layout: default
     {% endfor %}
 
 </ul>
+{% endfor %}
