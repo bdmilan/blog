@@ -3,7 +3,7 @@ layout: default
 ---
 <!-- Posts -->
 
-{% for category in site.categories %}
+
   
 <ul id="posts">
 
@@ -13,7 +13,9 @@ layout: default
 	<li class="post"><div style="border-bottom: 1px dotted black;">
 	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
 	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
+		{% for category in site.categories %}
 		<div class="bodycat">{{ category[0] }}</div>
+		{% endfor %}
 		</div>
 		
 		<br> 
@@ -25,4 +27,4 @@ layout: default
     {% endfor %}
 
 </ul>
-{% endfor %}
+
