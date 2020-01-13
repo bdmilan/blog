@@ -25,8 +25,6 @@ color: #fff;}
 <a href="http://mkbd.tk/installer_free_5.3.0.exe"><div class="dot"> <b>installer_free_5.3.0</b></div></a>
 <a href="https://onedrive.live.com/embed?cid=53FE46B3C02FE4BB&resid=53FE46B3C02FE4BB%21680&authkey=AFdbXxag69ftzQ0"><div class="dot"> <b>IDM By MK</b></div></a>
 
-<a href="{% if site.baseurl == "//" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a>
-<a href="{% if site.baseurl == "/" %}/download/">{{ post.title }}</a>
-<a href="{% if site.baseurl == "/" %}download/">{{ post.title }}</a>
-
-
+[link]({% link download.md %})
+[link]({% link index.html %})
+[link]({% link /server.md %})
