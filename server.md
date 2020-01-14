@@ -18,7 +18,7 @@ title: Server
 <div class="bodycat"><a href="http://103.204.211.51" style="color: #;"> http://103.204.211.51</a></div>
 <div class="bodycat"><a href="http://fs.rangdhanu.live/FTP1/" style="color: #;"> http://fs.rangdhanu.live/FTP1/</a></div>
 <div class="bodycat"><a href="http://172.16.50.5" style="color: #;"> http://172.16.50.5</a></div>
-<div class="bodycat margin-bottom: 20px;"><a href="http://45.250.20.19" style="color: #;">http://45.250.20.19 </a></div>
+<div class="bodycat"><a href="http://45.250.20.19" style="color: #;">http://45.250.20.19 </a></div>
 <div class="bodycat"><a href="http://actionbd.ga" style="color: #;">http://actionbd.ga </a></div>
 <div class="bodycat"><a href="http://anthousebd.net" style="color: #;">http://anthousebd.net  </a></div>
 <div class="bodycat"><a href="http://bdlan.net" style="color: #;"> http://bdlan.net </a></div>
@@ -57,6 +57,6 @@ title: Server
 <div class="bodycat"><a href="http://vdomela.com" style="color: #;"> http://vdomela.com </a></div>
 <div class="bodycat"><a href="http://piay.iflix.com" style="color: #;">http://piay.iflix.com  </a></div>
 <div class="bodycat"><a href="http://southfreak.com" style="color: #;"> http://southfreak.com </a></div>
-<div class="bodycat margin-bottom: 20px;"><a href="http://extramovies.host" style="color: #;"> http://extramovies.host </a></div>
+<div class="bodycat"><a href="http://extramovies.host" style="color: #;"> http://extramovies.host </a></div>
 
 
