@@ -6,14 +6,14 @@ title: Bangla Radio
  <div class="article">
 	<div style="border-bottom: 1px dotted black;">
 		<h2> ঢাকা-ক (৬৯৩ কিলোহার্জ)</h2><br> </div><br>
-<div align="center"><audio controls="true" preload="none" __idm_id__="538839041"><source src="http://as3.digitalsynapsebd.com:8582/;stream.mp3" type="audio/mp3">Your browser does not support the audio element.</audio><br>
+<div align="center"><audio controls="true" style="width:100%;" preload="none" __idm_id__="538839041"><source src="http://as3.digitalsynapsebd.com:8582/;stream.mp3" type="audio/mp3">Your browser does not support the audio element.</audio><br>
 </div></div>
 
 
 <div class="article">
 	<div style="border-bottom: 1px dotted black;">
 		<h2> ট্রাফিক সম্প্রচার কার্যক্রম (৮৮-৮ মেগাহার্জ)</h2><br> </div><br>
-<div align="center"><audio controls="true" preload="none" __idm_id__="121831426"><source src="http://as3.digitalsynapsebd.com:8263/;stream.mp3" type="audio/mp3">Your browser does not support the audio element.</audio><br>
+<div align="center"><audio controls="true" style="width:100%;" preload="none" __idm_id__="121831426"><source src="http://as3.digitalsynapsebd.com:8263/;stream.mp3" type="audio/mp3">Your browser does not support the audio element.</audio><br>
 </div></div>
 
 
