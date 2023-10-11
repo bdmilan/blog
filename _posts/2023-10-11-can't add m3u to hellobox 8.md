@@ -24,7 +24,7 @@ Not support https url.
 		
 		
 				<dl class="file">
-			<dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="./download/file.php?id=718&amp;sid=c26e02da36f54e78267059e888dcdea4">mtb_list.txt</a></dt>
+			<dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href=".mtb_list.txt">mtb_list.txt</a></dt>
 						<dd>(231 Bytes) Downloaded 208 times</dd>
 		</dl>
 		
