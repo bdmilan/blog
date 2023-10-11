@@ -4,12 +4,14 @@ title: Can't add m3u to hellobox 8
 
 The file name is mtb_list.txt
 The specific format is as follows:
-ANTV
-http://210.210.155.35/qwr9ew/s/s07/01.m3u8
-BERITA
-http://edge.linknetott.swiftserve.com/l ... ylist.m3u8
-SATU
-http://edge.linknetott.swiftserve.com/l ... ylist.m3u8
+channel24
+http://10.16.100.206:8080/hls/channel24.m3u8
+somoytv
+http://10.16.100.206:8080/hls/somoytv.m3u8
+StarSports1HD
+http://10.16.100.206:8080/hls/StarSports1HD.m3u8
+ABPAnanda
+https://ythls.onrender.com/channel/UCv3rFzn-GHGtqzXiaq3sWNg.m3u8
 
 PS.Do not have a space in the program name, otherwise the name will be empty.
 Not support https url.
