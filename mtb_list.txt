@@ -1,0 +1,8 @@
+channel24
+http://10.16.100.206:8080/hls/channel24.m3u8
+somoytv
+http://10.16.100.206:8080/hls/somoytv.m3u8
+StarSports1HD
+http://10.16.100.206:8080/hls/StarSports1HD.m3u8
+ABPAnanda
+https://ythls.onrender.com/channel/UCv3rFzn-GHGtqzXiaq3sWNg.m3u8
