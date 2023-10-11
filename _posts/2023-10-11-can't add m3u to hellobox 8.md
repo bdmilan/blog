@@ -14,7 +14,8 @@ http://edge.linknetott.swiftserve.com/l ... ylist.m3u8
 PS.Do not have a space in the program name, otherwise the name will be empty.
 Not support https url.
 
-<dl class="attachbox">
+<dl style="background-color: #FFFFFF;
+  border-color: #C9D2D8;">
 					<dt>
 						Attachments
 					</dt>
