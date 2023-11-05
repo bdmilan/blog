@@ -2,6 +2,7 @@
 ---
 title: How to Convert USB Flash Drive to Local Disk
 ---
+
 Hello friends, today i am going to show how to convert USB Flash drive to Local Disk. Convert any removable usb to local disk easy way. Watch the videos and enjoy!
 
 Download - <a class="postlink" href="{{ site.url }}/USB_LocalDisk.zip">USB_LocalDisk.zip</a>
