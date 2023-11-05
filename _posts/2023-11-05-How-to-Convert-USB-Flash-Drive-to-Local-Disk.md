@@ -1,4 +1,3 @@
-
 ---
 title: How to Convert USB Flash Drive to Local Disk
 ---
